@@ -34,7 +34,7 @@ Exemplo de dados:
   "senha": "senhaExemplo",
 }
 ```
-O sucesso da requisição retorna um objeto contendo token e ID do usuário, que deve ser utilizado passando através dos headers para fazer novas requisições
+O sucesso da requisição retorna um objeto contendo token e ID do usuário, que deve ser utilizado no cabeçalho para fazer novas requisições.
 
 ### Criar tarefa
 **Endpoint:** `POST /tarefas`
