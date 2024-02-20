@@ -20,7 +20,7 @@ Exemplo de dados:
 {
   "nome": "Nome Exemplo",
   "email": "exemplo@gmail.com",
-  "senha": "senhaExemplo",
+  "senha": "senhaExemplo"
 }
 ```
 
@@ -31,7 +31,7 @@ Exemplo de dados:
 ```json
 {
   "email": "exemplo@gmail.com",
-  "senha": "senhaExemplo",
+  "senha": "senhaExemplo"
 }
 ```
 O sucesso da requisição retorna um objeto contendo token e ID do usuário, que deve ser utilizado no cabeçalho para fazer novas requisições.
