@@ -3,12 +3,12 @@ API simples para gerenciar tarefas.
 
 # Como usar:
 Clone este repositório:
-git clone https://github.com/seu-usuario/api-tarefas.git
+1. git clone https://github.com/seu-usuario/api-tarefas.git
 
-Instale as dependências:
+2. Instale as dependências:
 npm install
 
-Inicie o servidor:
+3. Inicie o servidor:
 npm start
 
 ## Rotas
@@ -16,7 +16,7 @@ npm start
 **Endpoint:** `POST /user`
 Rota responsável pelo cadastro de usuários. Os dados devem ser enviados através do corpo da solicitação.
 Exemplo de dados:
-json
+```json
 {
   "nome": "Nome Exemplo",
   "email": "exemplo@gmail.com",
@@ -27,7 +27,7 @@ json
 **Endpoint:** `POST /user/login`
 Rota responsável pelo login do usuário já cadastrado.
 Exemplo de dados:
-json
+```json
 {
   "email": "exemplo@gmail.com",
   "senha": "senhaExemplo",
@@ -38,7 +38,7 @@ O sucesso da requisição retorna um objeto contendo token e ID do usuário, que
 **Endpoint:** `POST /tarefas`
 Rota responsável por criar uma nova tarefa. Os dados devem ser enviados através do corpo da solicitação.
 Exemplo de dados:
-json
+```json
 {
   "titulo": "Completar Projeto",
   "descricao": "Concluir a implementação da API de tarefas",
@@ -58,7 +58,7 @@ Retorna uma tarefa especifica de acordo com o id passado atraves de params.
 Edita uma tarefa especifica de acordo com o id passado atraves de params.
 Os dados alterados devem ser enviados atraves do corpo da solicitação.
 exemplo de dados:
-json
+```json
 {
   "titulo": "Alterando tarefa",
   "descricao": "Concluir a implementação da API de tarefas",
