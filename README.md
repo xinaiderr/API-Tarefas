@@ -2,8 +2,8 @@
 API simples para gerenciar tarefas.
 
 # Como usar:
-Clone este repositório:
-1. git clone https://github.com/seu-usuario/api-tarefas.git
+1. Clone este repositório:
+git clone https://github.com/seu-usuario/api-tarefas.git
 
 2. Instale as dependências:
 npm install
