@@ -22,6 +22,7 @@ Exemplo de dados:
   "email": "exemplo@gmail.com",
   "senha": "senhaExemplo",
 }
+```
 
 ### Login 
 **Endpoint:** `POST /user/login`
@@ -32,6 +33,7 @@ Exemplo de dados:
   "email": "exemplo@gmail.com",
   "senha": "senhaExemplo",
 }
+```
 O sucesso da requisição retorna um objeto contendo token e ID do usuário, que deve ser utilizado passando através dos headers para fazer novas requisições
 
 ### Criar tarefa
@@ -44,6 +46,7 @@ Exemplo de dados:
   "descricao": "Concluir a implementação da API de tarefas",
   "status": "Em Andamento"
 }
+```
 
 ### Listar Tarefas
 **Endpoint:** `GET /tarefas`
@@ -64,6 +67,7 @@ exemplo de dados:
   "descricao": "Concluir a implementação da API de tarefas",
   "status": "Finalizado"
 }
+```
 
 ### Excluir tarefa
 **Endpoint:** `DELETE /tarefas/:id`
